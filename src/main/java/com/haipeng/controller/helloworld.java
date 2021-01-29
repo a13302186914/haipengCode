@@ -7,7 +7,7 @@ public class helloworld {
     @RequestMapping("/hello")
     public String hello(){
 
-        return "helloworld11";
+        return "helloworld";
     }
 
     @GetMapping("/findOne/{id}")
